@@ -1,0 +1,74 @@
+body{
+    margin: 0 auto;
+    background-image: url(https://img5.goodfon.ru/wallpaper/nbig/5/cb/doroga-osen-asfalt-listia-priroda-fon-listva-oranzhevye-lezh.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#heading{
+    color: white;
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    padding-left: 18px;
+}
+
+.schedule table{
+    background-color: lightgrey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 270px;
+}
+.schedule table tr th{
+    padding-right: 15px;
+    padding: 15px;
+}
+.schedule table tr td{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#firstrow{
+    color: white;
+    background-color: rgba(73, 67, 67, 0.819);
+
+}
+.bottoms{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: -20px;
+    width: 100%;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(45, 43, 43);
+    padding: 15px;
+    margin-top: 70px;
+}
+.navbar div{
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 10px;
+}
+ .navbar div a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+#end{
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+    align-items: center;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    margin: 0;
+    bottom: 0px;
+}
+#end a{
+    color: red;
+    text-decoration: none;
+}

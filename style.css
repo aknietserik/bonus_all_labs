@@ -1,0 +1,71 @@
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-image: url(https://img5.goodfon.ru/wallpaper/nbig/5/cb/doroga-osen-asfalt-listia-priroda-fon-listva-oranzhevye-lezh.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photo{
+    display: flex;
+    color: rgb(125, 94, 94);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:lighter;
+}
+.bio{
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.193);
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+.bio p{
+    padding-left: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bio p b{
+    color:rgb(254, 174, 174);
+}
+
+.bottoms{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(45, 43, 43);
+    padding: 15px;
+    margin-top: 70px;
+}
+.navbar div{
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 10px;
+}
+ .navbar div a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+#end{
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+    align-items: center;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    margin: 0;
+    bottom: 0px;
+}
+#end a{
+    color: red;
+
+}
+
+
