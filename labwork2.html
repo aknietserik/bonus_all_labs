@@ -1,0 +1,106 @@
+<html>
+<head>
+    <title>labwork2</title>
+    <style>
+        .text-red{
+            color: red;
+        }
+        .text-hex-red{ 
+            color: #e50a0a;
+        }
+        .text-rgba-red{
+            color: rgba(255, 0, 0, .5);
+        }
+        .bg-red{
+            background-color: red;
+        }
+        .second-border{
+            height: 50;
+            border: 4px;
+            border: black 3px solid;
+        }
+        .bg-yellow{
+            background-color: yellow;
+
+        }
+        .little-rounded{
+            color: white;
+            line-height:3; 
+            width: 1500;
+            height: 50;
+            border: 3px black solid;
+            border-radius: 15px;
+            padding-left: 1%;
+        }
+        .fully-rounded{
+            border-radius: 50%;
+            width: 1470;
+            height: 50;
+            border: 3px black solid;
+            padding-left: 3%;
+            padding-top: 2%;
+            
+        }
+        .circle{
+            border-radius: 50%;
+            width: 100; height: 100;
+            text-align: center;
+            border: 3px black solid;
+            color: white;
+        }
+        .inline {
+            display: inline;   
+        }
+        .inline-block{
+            display: inline-block;
+        }
+        .text-left{
+            text-align: left;
+        }
+        .text-center{
+            text-align: center;
+        }
+        .text-right{
+            text-align: right;
+        }
+        .padding{
+            padding: 1px;
+        }
+        .border{
+            border: solid green 3px;
+        }
+        .margin{
+            margin: 20px;
+            border-style: dotted none dashed none;
+            border-top-color:green ;
+            border-bottom-color: #e50a0a;
+        }
+
+    </style>
+</head>
+
+<body>
+    <b><div class="text-red">My color is red</div></b>
+    <div class="text-hex-red">My color is red too</div>
+    <div class="text-rgba-red">My color is rgba is red</div>
+    <div class="bg-red">My background color is red</div>
+    <div class="second-border padding bg-yellow ;">I have padding same on each side</div>
+
+    <div class="margin">I have margin</div>
+    <div class="little-rounded bg-red">I am little rounded</div>
+    <div class="fully-rounded bg-yellow">I am fully rounded</div>
+    <div class="circle bg-red padding"><br><br> I am circle</div> 
+
+    <a style ="color: green;"href="">I am a tag which is inline by default</a>
+    <div class="inline">I am a div which is inline</div>
+
+    <br><a class ="inline-block" style="text-decoration: none;color:green" href="">I was a tag which inline but now I am block</a>
+    <br><div class="inline bg-yellow ">I am an inline div near an inline but now I am block</div>
+    <div class="inline inline-block bg-red" style="height:40px; width: 40px; color: white; ">Inline block</div>
+
+    <div class="text-left">Text left(by default)</div>
+    <div class="text-center">Text center</div>
+    <div class="text-right">Text right</div>
+   
+</body>
+</html>
